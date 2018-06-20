@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		CC8DD9F420D8EEFA00FBF270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DD9F320D8EEFA00FBF270 /* AppDelegate.swift */; };
-		CC8DD9F620D8EEFA00FBF270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DD9F520D8EEFA00FBF270 /* ViewController.swift */; };
 		CC8DD9F920D8EEFA00FBF270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD9F720D8EEFA00FBF270 /* Main.storyboard */; };
 		CC8DD9FC20D8EEFA00FBF270 /* ContactsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC8DD9FA20D8EEFA00FBF270 /* ContactsApp.xcdatamodeld */; };
 		CC8DD9FE20D8EEFB00FBF270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD9FD20D8EEFB00FBF270 /* Assets.xcassets */; };
 		CC8DDA0120D8EEFB00FBF270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD9FF20D8EEFB00FBF270 /* LaunchScreen.storyboard */; };
+		CC8DDA0B20D913E200FBF270 /* RealEstatePropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DDA0A20D913E200FBF270 /* RealEstatePropertyCell.swift */; };
+		CC8DDA0D20D9141D00FBF270 /* RealEstateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DDA0C20D9141D00FBF270 /* RealEstateProperty.swift */; };
+		CC8DDA0F20D915FC00FBF270 /* RealEstatePropertyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DDA0E20D915FC00FBF270 /* RealEstatePropertyTableViewController.swift */; };
+		CC8DDA1120D91D2200FBF270 /* RealEstatePropertyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DDA1020D91D2200FBF270 /* RealEstatePropertyPresenter.swift */; };
+		CC8DDA1320D91E4A00FBF270 /* PropertyListTableContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DDA1220D91E4A00FBF270 /* PropertyListTableContract.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC8DD9F020D8EEFA00FBF270 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8DD9F320D8EEFA00FBF270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC8DD9F520D8EEFA00FBF270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC8DD9F820D8EEFA00FBF270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC8DD9FB20D8EEFA00FBF270 /* ContactsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactsApp.xcdatamodel; sourceTree = "<group>"; };
 		CC8DD9FD20D8EEFB00FBF270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8DDA0020D8EEFB00FBF270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC8DDA0220D8EEFB00FBF270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8DDA0A20D913E200FBF270 /* RealEstatePropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstatePropertyCell.swift; sourceTree = "<group>"; };
+		CC8DDA0C20D9141D00FBF270 /* RealEstateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateProperty.swift; sourceTree = "<group>"; };
+		CC8DDA0E20D915FC00FBF270 /* RealEstatePropertyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstatePropertyTableViewController.swift; sourceTree = "<group>"; };
+		CC8DDA1020D91D2200FBF270 /* RealEstatePropertyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstatePropertyPresenter.swift; sourceTree = "<group>"; };
+		CC8DDA1220D91E4A00FBF270 /* PropertyListTableContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListTableContract.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				CC8DD9F320D8EEFA00FBF270 /* AppDelegate.swift */,
-				CC8DD9F520D8EEFA00FBF270 /* ViewController.swift */,
 				CC8DD9F720D8EEFA00FBF270 /* Main.storyboard */,
 				CC8DD9FD20D8EEFB00FBF270 /* Assets.xcassets */,
 				CC8DD9FF20D8EEFB00FBF270 /* LaunchScreen.storyboard */,
 				CC8DDA0220D8EEFB00FBF270 /* Info.plist */,
 				CC8DD9FA20D8EEFA00FBF270 /* ContactsApp.xcdatamodeld */,
+				CC8DDA0A20D913E200FBF270 /* RealEstatePropertyCell.swift */,
+				CC8DDA0C20D9141D00FBF270 /* RealEstateProperty.swift */,
+				CC8DDA0E20D915FC00FBF270 /* RealEstatePropertyTableViewController.swift */,
+				CC8DDA1020D91D2200FBF270 /* RealEstatePropertyPresenter.swift */,
+				CC8DDA1220D91E4A00FBF270 /* PropertyListTableContract.swift */,
 			);
 			path = ContactsApp;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8DDA1320D91E4A00FBF270 /* PropertyListTableContract.swift in Sources */,
 				CC8DD9FC20D8EEFA00FBF270 /* ContactsApp.xcdatamodeld in Sources */,
-				CC8DD9F620D8EEFA00FBF270 /* ViewController.swift in Sources */,
+				CC8DDA0D20D9141D00FBF270 /* RealEstateProperty.swift in Sources */,
+				CC8DDA0B20D913E200FBF270 /* RealEstatePropertyCell.swift in Sources */,
+				CC8DDA1120D91D2200FBF270 /* RealEstatePropertyPresenter.swift in Sources */,
+				CC8DDA0F20D915FC00FBF270 /* RealEstatePropertyTableViewController.swift in Sources */,
 				CC8DD9F420D8EEFA00FBF270 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
